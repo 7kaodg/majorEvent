@@ -33,7 +33,7 @@ function getUserinfo() {
 
 function renderAvatar(user) {
     // 1.获取用户名称
-    let name = user.username || user.nickname;
+    let name = user.nickname || user.username;
     // 2.设置欢迎文本
 
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
